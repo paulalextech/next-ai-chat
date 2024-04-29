@@ -26,7 +26,7 @@ export default function Chat() {
 					className="flex w-full max-w-3xl mx-auto items-center"
 				>
 					<input
-						className="flex-1 min-h-[40px] text-black rounded-md"
+						className="flex-1 min-h-[40px] text-black rounded-md p-1"
 						placeholder="Type your question here..."
 						type="text"
 						value={input}
