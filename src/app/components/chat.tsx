@@ -26,14 +26,14 @@ export default function Chat() {
 					className="flex w-full max-w-3xl mx-auto items-center"
 				>
 					<input
-						className="flex-1 min-h-[40px] text-black"
+						className="flex-1 min-h-[40px] text-black rounded-md"
 						placeholder="Type your question here..."
 						type="text"
 						value={input}
 						onChange={handleInputChange}
 					/>
 
-					<button className=" ml-1 p-2 bg-orange-500 rounded" type="submit">
+					<button className=" ml-1 p-2 bg-orange-500 rounded-md" type="submit">
 						Send
 					</button>
 				</form>
